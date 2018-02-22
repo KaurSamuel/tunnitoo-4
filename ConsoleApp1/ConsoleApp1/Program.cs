@@ -10,6 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string data = System.IO.File.ReadAllText("../../ tekst.txt");
+            Console.WriteLine(data);
         }
     }
 }
